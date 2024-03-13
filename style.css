@@ -203,3 +203,6 @@ ul li a:hover{
     display: flex;
     align-items: normal;
 }
+.email{
+    color:  rgb(255, 191, 29);
+}
