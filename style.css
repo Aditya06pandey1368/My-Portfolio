@@ -357,8 +357,8 @@ ul li a:hover{
     }
 }
 .img4{
-    width: 350px;
-    margin: 0px 100px;
+    width: 360px;
+    margin: 0px 0px 0px 200px;
 }
 .fourth{
     height: 70vh;
@@ -379,13 +379,28 @@ ul li a:hover{
     font-weight: 600;
 }
 .links{
+    width: 50%;
     margin: 0px 240px;
     font-size: 1.35rem;
 }
-.rightsection4{
-    display: flex;
-    align-items: normal;
-}
 .email{
     color:  rgb(255, 191, 29);
+}
+.rightsection4{
+    
+    align-items: normal;
+    margin: 0px 250px 50px 0px;
+}
+@media (max-width: 1330px){
+    .img4{
+        width: 250px;
+    }
+    .contact-details{
+        font-size: 2.5rem;
+    }
+    .links{
+        width: 50%;
+        margin: 0px 240px;
+        font-size: 1rem;
+    }
 }
