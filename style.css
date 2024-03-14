@@ -33,16 +33,65 @@ ul li a:hover{
     margin: 15px -90px;
     font-size: 2.1rem;
 }
-.first{
-    display:flex ;
-    justify-content: space-around;
-    align-items:center ;
+@media (max-width: 1330px){
+    .left{
+        font-size: 1.5rem;
+    }
+    .handles{
+        font-size: 0.9rem;
+    }
 }
-
-.leftsection1{
-    width: 50%;
-    height: 60vh;
-    font-size: 2.5rem;
+@media (max-width: 950px){
+    .left{
+        font-size: 1.25rem;
+    }
+    .nav{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.hr{
+    border: 1.5px solid rgb(198, 124, 209);
+    width: auto;
+    margin: 0px 80px;
+}
+@media (max-width: 1330px){
+    .img1{
+        width: 470px;
+    }
+    .rightsection1{
+        font-size: 2rem;
+    }
+}
+@media (max-width: 950px){
+    .img1{
+        width: 250px;
+    }
+    .rightsection1{
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 550px){
+    .img1{
+        width: 0px;
+    }
+    .rightsection1{
+        font-size: 1.1rem;
+    }
+}
+.rightsection1{
+    font-size: 2.4rem;
+}
+.img1{
+    width: 670px;
+    margin: 50px 0px;
+}
+#element{
+    color: rgb(222, 123, 222);
+}
+.name{
+    color: rgb(222, 123, 222);
+    font-weight: 600;
 }
 .line1{
     margin: 100px 0px 0px 150px;
@@ -50,60 +99,52 @@ ul li a:hover{
 .line2{
     margin: 0px 150px;
 }
-.rightsection1{
-    margin: 30px 0px;
-    width: 50%;
-}
-.img1{
-    width: 670px;
-    margin: 40px 0px;
-}
-.name{
+.contact-details{
     color: rgb(222, 123, 222);
+    font-size: 3.25rem;
+    margin: 140px 0px 50px 250px;
     font-weight: 600;
 }
-#element{
-    color: rgb(222, 123, 222);
+.links{
+    margin: 0px 240px;
+    font-size: 1.35rem;
 }
-.hr{
-    border: 1.5px solid rgb(198, 124, 209);
-    width: auto;
-    margin: 0px 80px;
+.email{
+    color:  rgb(255, 191, 29);
 }
-@media (max-width: 1300px){
+.rightsection4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0x;
+}
+@media (max-width: 1330px){
     .img1{
         width: 500px;
-        margin: 40px 0px;
-    }
-    .leftsection1{
-        width: 60%;
-        height: 45vh;
-        font-size: 1.5rem;
-        text-align: start;
     }
     .rightsection1{
-        margin: 30px 0px;
-        width: 40%;
+        font-size: 2rem;
     }
 }
-@media (max-width: 780px){
+@media (max-width: 950px){
     .img1{
-        width: 300px;
-        margin: 40px 0px;
-    }
-    .leftsection1{
-        width: 75%;
-        height: 35vh;
-        font-size: 1rem;
+        width: 350px;
     }
     .rightsection1{
-        margin: 30px 0px;
-        width: 25%;
+        font-size: 1.4rem;
     }
 }
-
+@media (max-width: 550px){
+    .img1{
+        width: 0px;
+    }
+    .rightsection1{
+        font-size: 1rem;
+        
+    }
+}
 .second{
-    height: 80vh;
     display: flex;
     justify-content: space-around;
     align-items:normal;
@@ -149,6 +190,88 @@ ul li a:hover{
     flex-direction: column;
     align-items:first baseline;
 }
+@media (max-width: 1330px){
+    .img2{
+        margin: 70px 30px;
+        width: 250px;
+    }
+    .skill{
+        font-size: 2.75rem;
+        margin: 0px 40px;
+        font-weight: 600;
+    }
+    .skills{
+        font-size: 1.05rem;
+        margin: 0px 20px;
+        text-align:justify;
+    }
+    .second{
+        height: 70vh;
+    }
+    .rightsection2{
+        max-width: 42%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+        flex-direction: column;
+        margin: 50px 40px ;
+    }
+}
+@media (max-width: 950px){
+    .img2{
+        width: 180px;
+        margin: 80px 20px;
+    }
+   
+    .skill{
+        font-size: 2rem;
+        margin: 0px 40px;
+        font-weight: 600;
+    }
+    .skills{
+        font-size: 0.8rem;
+        margin: 0px 20px;
+        text-align:justify;
+    }
+    .rightsection2{
+        max-width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+        flex-direction: column;
+        margin: 50px 10px ;
+    }
+}
+@media (max-width: 550px){
+    .img2{
+        width: 0px;
+    }
+    
+    .skill{
+        font-size: 1.25rem;
+        margin: 0px 60px 0px 0px;
+        font-weight: 600;
+    }
+    .leftsection2{
+        max-width: 0%;
+    }
+    .skills{
+        font-size: 0.5rem;
+        margin: 0px 0px 0px 0px;
+        text-align:justify;
+    }
+    .rightsection2{
+        max-width: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+        flex-direction: column;
+        margin: 0px ;
+    }
+}
 .img3{
     width: 470px;
     margin: 120px 160px;
@@ -172,37 +295,77 @@ ul li a:hover{
     flex-direction: column;
     align-items: center;
 }
-.img4{
-    width: 350px;
-    margin: 0px 100px;
+@media (max-width: 1330px){
+    .img3{
+        width: 320px;
+        margin: 120px 80px;
+    }
+    .education{
+        font-size: 2.75rem;
+        margin: 27px;
+    }
+    .highschool{
+        font-size: 1.25rem;
+    }
+    .marks{
+        font-size: 1.05rem;
+    }
+    .rightsection2{
+        max-width: 48%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 18px;
+        flex-direction: column;
+        margin: 40px 30px ;
+    }
 }
-.fourth{
-    height: 70vh;
-    display: flex;
-    justify-content: space-around;
-}
-
-.leftsection4{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+@media (max-width: 950px){
+    .img3{
+        width: 220px;
+        margin: 100px 20px;
+    }
     
+    .education{
+        font-size: 2rem;
+        margin: 20px;
+    }
+    .highschool{
+        font-size: 1.1rem;
+    }
+    .marks{
+        font-size: 0.9rem;
+    }
+    .rightsection2{
+        max-width: 54%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-direction: column;
+        margin: 20px 20px ;
+    }
 }
-.contact-details{
-    color: rgb(222, 123, 222);
-    font-size: 3.25rem;
-    margin: 140px 0px 50px 250px;
-    font-weight: 600;
-}
-.links{
-    margin: 0px 240px;
-    font-size: 1.35rem;
-}
-.rightsection4{
-    width: 60%;
-    display: flex;
-    align-items: normal;
-}
-.email{
-    color:  rgb(255, 191, 29);
+@media (max-width: 550px){
+    .img3{
+        width: 0px;
+    }
+    .education{
+        font-size: 1.25;
+    }
+    .highschool{
+        font-size: 0.8rem;
+    }
+    .marks{
+        font-size: 0.5rem;
+    }
+    .rightsection2{
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        flex-direction: column;
+        margin: 20px 20px ;
+    }
 }
